@@ -1,0 +1,139 @@
+/* Start of Projects Component */
+
+.projects {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projectCarousel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .projectCarousel img {
+    width: 500px;
+    height: 600px;
+    z-index: 0;
+  }
+  
+  .projectCard {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* transition: 1s ease-in-out; */
+    z-index: 3;
+    font-family: "Cera CY Regular";
+  }
+  .leftFromActive{
+    transform: translateX(-80%);
+    filter: blur(3px);
+    /* transition: 1s ease-in-out; */
+    z-index: 1;
+  }
+  .leftFromActive img{
+    scale: 0.9;
+    filter: grayscale(1);
+    transition: 1s ease-in-out;
+    z-index: 0;
+  }
+  .rightFromActive{
+    transform: translateX(80%);
+    filter: blur(3px);
+    z-index: 1;
+  }
+  .rightFromActive img{
+    scale: 0.9;
+    filter: grayscale(1);
+    transition: 1s ease-in-out;
+    z-index: 0;
+  }
+  .notShown{
+    display: none;
+    transition: 1s;
+  }
+
+  .Show{
+    width: 200vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-wrap: balance;
+    height: 45%;
+    z-index: 6;
+    background: linear-gradient(transparent 10%, rgb(24, 52, 64) 25%, rgb(19, 44, 54) 100%);
+    align-items: center;
+  }
+  
+
+  .imageSpace{
+    height: 60%;
+    width: 500px;
+    z-index: 0;
+  }
+  
+  .projectImage{
+    position: absolute;
+    top: 15%;
+    z-index: 0;
+  }
+  .projectImage img{
+    transition: 1s ease-in-out;
+    z-index: 0;
+  }
+  .projectTitle{
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .projectTitle h1{
+    font-size: 74px;
+    margin: 0;  
+  }
+  .projectDescription{
+    width: 70vw;
+    top: 40%;
+    position: absolute;
+  }
+  .projectDescription p{
+    text-align: center;
+    line-height: 36px;
+    margin: 0;
+  }
+  .projectButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    z-index: 6;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+  }
+  .projectButton:hover {
+    box-shadow: 5px 10px 18px 0px rgba(0,0,0,1);
+    transition: 0.5s ease-in-out;
+  }
+  /* End of Projects Component */
