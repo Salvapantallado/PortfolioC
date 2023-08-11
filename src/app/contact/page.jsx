@@ -8,8 +8,8 @@ export default function Contact() {
         <div>
           <h1>ABOUT</h1>
           <p>
-            My name is Lighuen Miranda, I'm a Fullstack web developer graduated
-            from the SoyHenry bootcamp back in 2021. I'm very interested in working as a
+            My name is Lighuen Miranda, I`m a Fullstack web developer graduated
+            from the SoyHenry bootcamp back in 2021. I`m very interested in working as a
             Frontend/Backend/FullStack web Developer. My most notable skills are being persistent and
             product focused, nothing is impossible as long as you have the will
             to try!
