@@ -5,7 +5,7 @@ export default function Landing() {
     <>
       <div className={styles.Landing}>
         <div className={styles.videoWrapper}>
-        <video disablePictureInPicture controls={false} autoPlay muted loop preload>
+        <video disablePictureInPicture controls={false} autoPlay muted loop preload='true'>
         <source src="/video/background.mp4" type="video/mp4" />
         </video>
         </div>

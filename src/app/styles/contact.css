@@ -87,3 +87,41 @@
     flex-direction: column;
     display: flex;
 } */
+
+
+@media (max-width: 700px) {
+.contact-wrapper{
+  height: auto;
+  flex-direction: column;
+}
+.contact-wrapper h1 {
+  font-size: 44px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+.left-contact{
+  height: auto;
+  width: auto;
+  padding: 10%;
+}
+.left-contact h1{
+  font-size: 44px;
+}
+.left-contact p{
+  line-height: 30px;
+}
+.right-contact{
+  width: auto;
+  height: 85vh;
+}
+
+.form-button {
+  box-shadow: 3px 8px 15px 0px rgba(0,0,0,1);
+  z-index: 1;
+}
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  
+}

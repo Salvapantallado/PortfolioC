@@ -11,7 +11,7 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at diam vel magna eleifend sodales. Aenean ac massa quis odio egestas iaculis. Aenean nulla tellus, pulvinar nec fermentum sed, tincidunt at diam. Donec blandit justo ut volutpat hendrerit. Aenean at finibus tortor, a dapibus elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       link: "https://google.com",
     },
     {
@@ -19,7 +19,7 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1594335034276-470bb3d7ceac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at diam vel magna eleifend sodales. Aenean ac massa quis odio egestas iaculis. Aenean nulla tellus, pulvinar nec fermentum sed, tincidunt at diam. Donec blandit justo ut volutpat hendrerit. Aenean at finibus tortor, a dapibus elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       link: "https://google.com",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1521572115275-e3becac251db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at diam vel magna eleifend sodales. Aenean ac massa quis odio egestas iaculis. Aenean nulla tellus, pulvinar nec fermentum sed, tincidunt at diam. Donec blandit justo ut volutpat hendrerit. Aenean at finibus tortor, a dapibus elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       link: "https://google.com",
     },
   ];

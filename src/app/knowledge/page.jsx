@@ -113,7 +113,7 @@ export default function KnowledgeStack() {
           })}
         </div>
       </div>
-      <div className="stack-wrapper">
+      <div className="stack-wrapper2">
         <h1>Back-end Stack</h1>
         <div className="back-stack">
           {backStack.map((item, index) => {
