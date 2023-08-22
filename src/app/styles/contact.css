@@ -119,6 +119,16 @@
   box-shadow: 3px 8px 15px 0px rgba(0,0,0,1);
   z-index: 1;
 }
+.contact-form{
+  padding: 5%;
+  height: 90%;
+}
+.contact-form form {
+  height: 90%;
+}
+.contact-wrapper h1 {
+  margin: 0;
+}
 }
 
 /* Tablet and Smaller Desktop */

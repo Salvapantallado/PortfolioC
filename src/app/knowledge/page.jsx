@@ -1,5 +1,7 @@
 "use client";
 import "../styles/knowledge.css";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function KnowledgeStack() {
   const frontStack = [
@@ -100,6 +102,8 @@ export default function KnowledgeStack() {
 
   return (
     <section id="stack" className="knowledge">
+      <div className="pre-stack-wrap">
+      <AnimationOnScroll animateIn="animate__fadeInLeft" animateOut="animate__fadeOutLeft">
       <div className="stack-wrapper">
         <h1>Front-end Stack</h1>
         <div className="front-stack">
@@ -113,6 +117,10 @@ export default function KnowledgeStack() {
           })}
         </div>
       </div>
+          </AnimationOnScroll>
+          </div>
+        <div className="pre-stack-wrap">
+      <AnimationOnScroll animateIn="animate__fadeInRight" animateOut="animate__fadeOutRight">
       <div className="stack-wrapper2">
         <h1>Back-end Stack</h1>
         <div className="back-stack">
@@ -125,6 +133,8 @@ export default function KnowledgeStack() {
             );
           })}
         </div>
+        </div>
+        </AnimationOnScroll>
       </div>
     </section>
   );

@@ -16,6 +16,8 @@
 }
 
 .main {
+  color: white;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,11 +50,11 @@
   align-items: center;
   z-index: 5;
 }
-.nav a{
+.nav a {
   text-decoration: none;
   color: white;
 }
-.nav a:hover{
+.nav a:hover {
   text-decoration: underline;
   color: aquamarine;
 }
@@ -69,15 +71,17 @@
   display: flex;
   flex-direction: row;
 }
-.navLinks a{
+.navLinks a {
   text-decoration: none;
   color: white;
 }
-.navLinks a:hover{
+.navLinks a:hover {
   text-decoration: underline;
   color: aquamarine;
 }
 .navLinks h3 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   margin: 0 25px;
   font-size: 14px;
   font-weight: 100;
@@ -147,7 +151,7 @@
   pointer-events: none;
 }
 
-.videoWrapper video{
+.videoWrapper video {
   background-color: #000;
   all: unset;
   width: 100%;
@@ -155,7 +159,7 @@
   pointer-events: none;
   opacity: 0.7;
 }
-.videoWrapper video source{
+.videoWrapper video source {
   pointer-events: none;
 }
 .smallTitle h3,
@@ -202,8 +206,6 @@
 }
 /* End of Landing Component */
 
-
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -218,21 +220,21 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .main{
+  .main {
     overflow: hidden;
   }
-  .navLogo h1{
+  .navLogo h1 {
     font-size: 26px;
   }
-  .bigTitleLogo h1{
+  .bigTitleLogo h1 {
     font-size: 190px;
   }
-  .navLinks h3{
+  .navLinks h3 {
     margin: 0px 10px;
     font-size: 11px;
     letter-spacing: 4px;
   }
-  .videoWrapper{
+  .videoWrapper {
     height: 60%;
   }
 }
