@@ -5,7 +5,7 @@ import 'animate.css';
 import { useSwipeable } from "react-swipeable";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
-import PeithoMobile from "./images/PeithoMobile.png";
+import PeithoIMG from "./images/PeithoIMG.png";
 import pokeAppv2 from "./images/pokeAppv2.png";
 import Flixflix from "./images/Flixflix.png";
 import FFOOGLE from "./images/FFOOGLE.png";
@@ -19,7 +19,7 @@ export default function Projects() {
   const mockProjects = [
     {
       title: "Peitho",
-      image: PeithoMobile,
+      image: PeithoIMG,
       description:
         "Catalogo de ropa hecho en React con base de datos en PostrgreSQL. Posee sistema de favoritos, filtros por tipo de ropa, 'carrito', panel de admin para manejar precios, productos, historias, imágenes, etc.",
       link: "https://peitho.vercel.app",
