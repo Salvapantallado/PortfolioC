@@ -46,7 +46,7 @@ export default function Projects() {
       image: FFOOGLE,
       description:
         "Página de búsquedas de personajes, monstruos y juegos de la saga Final Fantasy.",
-      link: "https://poke-app-v2.vercel.app",
+      link: "https://ffoogle.vercel.app",
       language: ["React"],
     },
     {
