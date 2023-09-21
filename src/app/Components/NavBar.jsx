@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import { useState } from "react";
 
 export default function NavBar({ test, handleSetTest }) {
-  console.log(test, "esto es test del navbar");
+  // console.log(test, "esto es test del navbar");
 
 
 
