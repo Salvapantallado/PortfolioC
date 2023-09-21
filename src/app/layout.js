@@ -1,3 +1,4 @@
+import Head from "next/head";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -11,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <title>
           LEM DEV's Portfolio
         </title>
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
         <link href="https://db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=Cera+CY+Regular" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
         <script src="https://web3forms.com/client/script.js" async defer></script>
-      </head>
+      </Head>
 
       <body className={inter.className}>{children}</body>
     </html>
