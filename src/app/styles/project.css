@@ -120,7 +120,7 @@
 }
 .projectDescription {
   width: 70vw;
-  top: 32%;
+  top: 33%;
   position: absolute;
 }
 .projectDescription p {
@@ -154,7 +154,7 @@
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 60%;
+  top: 64%;
 }
 .buttonStacks {
   padding: 8px;
