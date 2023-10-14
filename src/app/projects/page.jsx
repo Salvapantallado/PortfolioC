@@ -23,7 +23,7 @@ export default function Projects() {
       description:
       "Clothing catalog made in React with a PostgreSQL database. It has a 'favorite item' system, cloth filters, 'cart', admin panel for the whole page management, products, stories, images, etc.",
         // "Catalogo de ropa hecho en React con base de datos en PostrgreSQL. Posee sistema de favoritos, filtros por tipo de ropa, 'carrito', panel de admin para manejar precios, productos, historias, imágenes, etc.",
-      link: "https://peitho.vercel.app",
+      link: "https://peitho-frontend.vercel.app",
       language: ["React", "NodeJS", "PostgreSQL", "Express"],
     },
     {
